@@ -6,7 +6,9 @@ function Header() {
     <header id="header">
       <h2>h2</h2>
       <div id="nav-links">
-        <nav>nav1</nav>
+        <nav>
+          <Link to="/page2">nav1</Link>
+        </nav>
         <nav>
           <Link to="/page2">nav2</Link>
         </nav>
@@ -23,7 +25,7 @@ function Header() {
             <a href="#">a3</a>
           </div>
         </div>
-        <button>button1</button>
+        <button><Link to="/IniSesion">INISEC</Link></button>
         <button>button2</button>
       </div>
     </header>
